@@ -1,6 +1,8 @@
 import pyautogui as pg
 
-def chk_pos():
+def print_pos():
+    """マウスのポジョン出力する
+    """
     pg.PAUSE = 1
     pg.FAILSAFE = True
     while True:
